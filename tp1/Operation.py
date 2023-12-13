@@ -19,5 +19,6 @@ class Operation:
         for i in range(len(self.lemp)):
          print(self.lemp[i].__str__())
 
-    # def triepardate(self):
+    def triepardate(self):
+       self
         

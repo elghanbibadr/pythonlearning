@@ -14,7 +14,7 @@ class Appartement(Imobilier):
         return self.nbj * self.prix
     
     def str(self):
-        if self.nbj == 0 :
+        if f"{self.nbj}" == 0 :
             return "appartment ",super().str() , "et disponible"
         
         return "appartment ",super().str() , "et reserve" 

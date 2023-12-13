@@ -10,5 +10,3 @@ class Membre:
 
 
 
-membre1 = Membre("John Doe", "123 Main Street", 5)
-print(membre1)
